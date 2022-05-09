@@ -2,7 +2,7 @@
 
 This repository consolidate DLP sample files that I have collected and used over the years. Your quality assurance library does not have to be unique, everyone strives for consistency. Fork this repository, and improve _your_ library. Even better, send me an update :laughing:.
 
-> A DLP solution is a set of processes, [tools, and techniques](techniques.md) that monitor and prevent data exfiltration.
+> **A DLP solution is a set of processes, [tools, and techniques](techniques.md) that monitor sensitive information and prevent data exfiltration.**
 
 ## What problem does it solve and why is it useful?
 
@@ -12,10 +12,11 @@ I wasn't happy with the provided bundle of fake files to test my DLP policies. T
 
 You’ve been there too — setting up a data loss prevention solution is a damn long project (DLP) especially if you need to support multiple languages.
 
-I have used several [data generators](techniques.md#known data generators) to obtain American, Canadian, European specific datasets. My themes are cybersecurity, finance, legal, personal, and technology.
+I have used several [data generators](techniques.md#tools) to obtain American, Canadian, European specific datasets. My themes are cybersecurity, finance, legal, personal, and technology.
 
 <details>
-<summary>**Cybersecurity**</summary>
+<summary>Cybersecurity</summary>
+
 
 Items:
   * password/ shadow
@@ -29,7 +30,7 @@ Compliance:
 
 <details>
 <summary>Finance</summary>
-
+<br>
 Items:
   * Credit card number (CCN)
   
