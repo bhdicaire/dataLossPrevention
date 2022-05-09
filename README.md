@@ -74,7 +74,7 @@ Compliance:
 ## testing resource 
 
 | Name   | HTTP Post | HTTPS Post | FTP |
-|----------|--:|--:|--:|
+|----------|--:|--:|-:-|
 |[DLP Test](https://dlptest.com/)| X | X | X |
 
 ## Known Data generators
@@ -87,7 +87,7 @@ Compliance:
 
 
 | Name | Cybersecurity | Finance | Legal | Personal | Technology |
-|:----------|--|--:|--:|--:|--:|--:|
+|:----------|--|--:|--:|--:|--:|
 |[DLP Test](https://dlptest.com/)| X | X | X | X | X |
 |[Fake Person Generator](https://www.fakepersongenerator.com/)| X | X | X | X | X |
 |[Fake Generator](https://fakegenerator.net/)| X | X | X | X | X |
