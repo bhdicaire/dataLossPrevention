@@ -10,7 +10,21 @@ I wasn't happy with the provided bundle of fake files to test my DLP policies. T
 
 My objective is to consolidate sample data files that can support most DLP use case. 
 
+
+
 ### Modules
+
+**Known Data generators**
+
+| Name | Cybersecurity | Finance | Legal | Personal | Technology |
+|:----------|--|--:|--:|--:|--:|
+|[DLP Test](https://dlptest.com/)| X | X | X | X | X |
+|[Fake Person Generator](https://www.fakepersongenerator.com/)| X | X | X | X | X |
+|[Fake Generator](https://fakegenerator.net/)| X | X | X | X | X |
+|[Get Fake Data](https://getfakedata.com/)| X | X | X | X | X |
+|[Get Bored Human)](https://boredhumans.com/faces.php)| X | X | X | X | X |
+|[Venkom](https://cloud.venkon.us/)| X | X | X | X | X |
+
 <details>
 <summary>Cybersecurity</summary>
 
@@ -68,29 +82,3 @@ Compliance:
   * To be defined
   
 </details>
-
-## Government forms
-
-## testing resource 
-
-| Name   | HTTP Post | HTTPS Post | FTP |
-|----------|--:|--:|-:-|
-|[DLP Test](https://dlptest.com/)| X | X | X |
-
-## Known Data generators
-
-| Tables   |      Are      |  Cool |
-|----------|:--------------|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-
-| Name | Cybersecurity | Finance | Legal | Personal | Technology |
-|:----------|--|--:|--:|--:|--:|
-|[DLP Test](https://dlptest.com/)| X | X | X | X | X |
-|[Fake Person Generator](https://www.fakepersongenerator.com/)| X | X | X | X | X |
-|[Fake Generator](https://fakegenerator.net/)| X | X | X | X | X |
-|[Get Fake Data](https://getfakedata.com/)| X | X | X | X | X |
-|[Get Bored Human)](https://boredhumans.com/faces.php)| X | X | X | X | X |
-|[Venkom](https://cloud.venkon.us/)| X | X | X | X | X |
