@@ -35,3 +35,13 @@ https://openlibrary.org/explore
 |----------|--:|--:|--|
 |[DLP Test](https://dlptest.com/)| X | X | X |
 
+### Known Data Generator
+ 
+| Name | Cybersecurity | Finance | Legal | Personal | Technology |
+|:----------|--|--:|--:|--:|--:|
+|[DLP Test](https://dlptest.com/)| X | X | X | X | X |
+|[Fake Person Generator](https://www.fakepersongenerator.com/)| X | X | X | X | X |
+|[Fake Generator](https://fakegenerator.net/)| X | X | X | X | X |
+|[Get Fake Data](https://getfakedata.com/)| X | X | X | X | X |
+|[Get Bored Human)](https://boredhumans.com/faces.php)| X | X | X | X | X |
+|[Venkom](https://cloud.venkon.us/)| X | X | X | X | X |
