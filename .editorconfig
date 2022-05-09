@@ -1,0 +1,23 @@
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+indent_style = space
+trim_trailing_whitespace: set to true
+
+x-soft-wrap-text: 1
+x-soft-wrap-limit: WindowWidth
+x-show-invisibles: 1
+x-show-spaces: 1
+
+[Makefile]
+indent_style = tab
+indent_size = 4
+tab_width = 4
+
+[*.{css,html,js,json,md,sass,scss,toml,yml,yaml}]
+indent_style = space
+indent_size = 2
+tab_width = 2
+insert_final_newline = true
