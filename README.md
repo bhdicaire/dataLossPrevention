@@ -1,6 +1,8 @@
 ![dataLossPrevention logo](https://github.com/bhdicaire/dataLossPrevention/raw/master/logo.png)
 
-This repository consolidate DLP sample files that I have collected and used over the years. Your quality assurance library does not have to be unique, everyone strives for consistency. Fork this repository, and improve _your_ library. Even better, send me an update :laughing:.
+This repository consolidate DLP sample files that I have collected and used over the years. Your quality assurance library does not have to be unique, everyone strives for consistency. 
+
+Fork this repository, and improve _your_ library. Even better, send me an update :laughing:.
 
 > **A DLP solution is a set of processes, [tools, and techniques](techniques.md) that monitor sensitive information and prevent data exfiltration.**
 
@@ -16,18 +18,15 @@ I have used several [data generators](techniques.md#tools) to obtain American, C
 
 <details>
 <summary>Cybersecurity</summary>
-
-
+<br>
 Items:
   * password/ shadow
   * ldap
-  
   
 Compliance:
   * To be defined
   
 </details>
-
 <details>
 <summary>Finance</summary>
 <br>
@@ -40,7 +39,7 @@ Compliance:
 </details>
 <details>
 <summary>Legal</summary>
-
+<br>
 Items:
   * Contract
   * NDA
@@ -51,7 +50,7 @@ Compliance:
 </details>
 <details>
 <summary>Personal</summary>
-
+<br>
 Items:
   * PII
   * PHI
@@ -62,7 +61,7 @@ Compliance:
 </details>
 <details>
 <summary>Technology</summary>
-
+<br>
 Items:
   * ldap
   * code
