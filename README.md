@@ -12,9 +12,7 @@ I wasn't happy with the provided bundle of fake files to test my DLP policies. T
 
 ## Datasets
 
-You’ve been there too — setting up a data loss prevention solution is a damn long project (DLP) especially if you need to support multiple languages.
-
-I have used several [data generators](techniques.md#tools) to obtain American, Canadian, European specific datasets. My themes are cybersecurity, finance, legal, personal, and technology.
+You’ve been there too — setting up a data loss prevention solution is a damn long project (DLP) especially if you need to support _multiple languages_. I have used several [data generators](techniques.md#tools) to obtain American, Canadian, European specific datasets.
 
 <details>
 <summary>Cybersecurity</summary>

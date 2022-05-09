@@ -32,19 +32,14 @@ https://openlibrary.org/explore
 ### Testing Resource 
 
 | Name   | HTTP Post | HTTPS Post | FTP |
-| :----------| :--------: | :--:|--|
+| :-- |:--: | :--:| :--: |
 |[DLP Test](https://dlptest.com/)| X | X | X |
 
-
-| Syntax    | Description |   Test Text |
-| :-------- | :---------: | ----------: |
-| Header    |    Title    | Here's this |
-| Paragraph |    Text     |    And more |
 
 ### Known Data Generator
  
 | Name | Cybersecurity | Finance | Legal | Personal | Technology |
-|:----------|--|--:|--:|--:|--:|
+| :-- | :--: | :--:| :--: | :--:| :--: |
 |[DLP Test](https://dlptest.com/)| X | X | X | X | X |
 |[Fake Person Generator](https://www.fakepersongenerator.com/)| X | X | X | X | X |
 |[Fake Generator](https://fakegenerator.net/)| X | X | X | X | X |
