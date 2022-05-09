@@ -34,6 +34,7 @@ Compliance:
   * PCI
   
 </details>
+<details>
 <summary>Legal</summary>
 
 Items:
@@ -73,6 +74,7 @@ Compliance:
 ## testing resource 
 
 | Name   | HTTP Post | HTTPS Post | FTP |
+|----------|:--------------|:--:|:--:|:--:|
 |[DLP Test](https://dlptest.com/)| X | X | X |
 
 ## Known Data generators
@@ -83,8 +85,12 @@ Compliance:
 | col 2 is |    centered   |   $12 |
 | col 3 is | right-aligned |    $1 |
 
-https://www.fakepersongenerator.com/
-https://fakegenerator.net/
-https://getfakedata.com/
-https://boredhumans.com/faces.php
-https://cloud.venkon.us/
+
+| Name   | Cybersecurity | Finance | Legal | Personal | Technology |
+|----------|:--------------|:--:|:--:|:--:|
+|[DLP Test](https://dlptest.com/)| X | X | X | X | X |
+|[Fake Person Generator](https://www.fakepersongenerator.com/)| X | X | X | X | X |
+|[Fake Generator](https://fakegenerator.net/)| X | X | X | X | X |
+|[Get Fake Data](https://getfakedata.com/)| X | X | X | X | X |
+|[Get Bored Human)](https://boredhumans.com/faces.php)| X | X | X | X | X |
+|[Venkom](https://cloud.venkon.us/)| X | X | X | X | X |
