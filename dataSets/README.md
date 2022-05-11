@@ -1,9 +1,27 @@
 # Datasets
 
-## Fake files
-Fake files are ... Known Data Generator, curated data resources.
+All the dataSets are documented on the [main page](../README.md)
 
-As long as it works ...
+You’ve been there too — setting up a data loss prevention solution is a damn long project (DLP) especially if you need to _support multiple languages_. I have used several [data generators](#KnownDataGenerators) and curated data resources to obtain American, Canadian, and European specific datasets.
+
+It’s essential to use a DLP solution that support country specific localisation (l10n) as an integral part of ongoing development. The flexibility provided by the internationalisation (i18n) ensure that DLP policies can be adapted to various languages and regions without engineering changes.
+
+The datasets are identified with the country ISO code and I used [EN] for generic english document.
+
+| Country   | Code |
+| :-- |:-- | 
+| Canada | CA |
+| The Kingdom of the Netherlands | NL |
+| The Kingdom of Norway| NO |
+| The Kingdom of Sweden| SE |
+| The Swiss Confederation | CH |
+| United States of America | US |
+| Portugal | PT |
+| The Federal Republic of Germany | DE |
+| The French Republic | FR |
+| The Hellenic Republic | GR |
+| The Republic of Finland | FI |
+| The Kingdom of Belgium | BE |
 
 ### Known Data Generator
  
@@ -23,30 +41,4 @@ As long as it works ...
 |[Data.World](https://data.world)|  |
 |[Data Lumos](https://www.datalumos.org)| Valuable government data resources powered by [Open ICPSR](https://www.openicpsr.org/) |
 |[Names.IO GIT repository](https://github.com/Debdut/names.io)| A Global Exhaustive First and Last Name Database |
-|Statistics Canada](https://www.statcan.gc.ca/)| Statistics Canada provides information on Canada's economy, society and environment. |
-
-## Localization
-
-It’s essential to use a DLP solution that support country specific localisation (l10n) as an integral part of ongoing development. The flexibility provided by the internationalisation (i18n) ensure that DLP policies can be adapted to various languages and regions without engineering changes.
-
-The datasets are identified with the country ISO code. Or the language ...
-
-
-
-| Country   | Code |
-| :-- |:-- | 
-| Canada | CA |
-| Netherlands | NL |
-| Netherlands | NL |
-| Norway | NO |
-| Swedish | SE |
-| Swiss | CH |
-| United States of America | US |
-
-EP
-DE
-FR
-gr
-fi
-
-
+|[Statistics Canada](https://www.statcan.gc.ca/)| Statistics Canada provides information on Canada's economy, society and environment |

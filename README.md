@@ -10,9 +10,9 @@ Fork this repository, and improve _your_ library. Even better, send me an update
 
 I wasn't happy with the provided bundle of fake files to test my DLP policies. They were either too simple or [not localized for my use case](dataSets/README.md#Localization).
 
-## Datasets
+Friend don’t let friends test the effectiveness of DLP solution with production data. You need _realistic test data_ in several formats such as CSV, JSON, SQL, TXT, and Excel to make sure your DLP Policies are working correctly especially after a significant change.
 
-You’ve been there too — setting up a data loss prevention solution is a damn long project (DLP) especially if you need to _support multiple languages_. I have used several [data generators](datasets/README.md#Fake) to obtain American, Canadian, and European specific datasets.
+## Datasets
 
 <details>
 <summary>Cybersecurity</summary>
@@ -69,14 +69,7 @@ Items:
 | :-- |:-- | 
 |[lastName.US.txt](personal/lastName.US.txt)| Last names occurring 100 or more times from the [US Census Bureau (up to the year 2000)](https://www.census.gov/topics/population/genealogy/data/2000_surnames.html) Because of a 72-year restriction on access to the _full_ Census, the most recent year available is 1950, released on April 1, 2022. |
 
-| Country   | Code |
-| :-- |:-- | 
-| Netherlands | NL |
-| Norway | NO |
-| Swiss | CH |
-| United States of America | US |
-| Swedish | SE |
-| Netherlands | NL |
+The datasets are identified with the [country ISO code](dataSets/README.md#Localization).
 
 Compliance:
   * GDPR
