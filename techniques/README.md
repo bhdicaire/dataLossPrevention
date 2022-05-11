@@ -26,12 +26,12 @@ https://www.iso.org/standard/70484.html
 https://en.wikipedia.org/wiki/Luhn_algorithm
 German computer scientist Hans Peter Luhn developed the Luhn algorithm in 1954. It calculates simple checksum formula used to validate identification numbers The algorithm was designed to protect against accidental errors, such as digit mistyping. It will detect any single-digit error, as well as almost all transpositions of adjacent digits. However, it will not detect transposition of the two-digit sequence 09 to 90 (or vice versa).
 
-### REGEX
+### Regular Expression (RegEx)
 
 Expressio n-specific checksum
 
-### Fingerprinting
-Most DLP solutions can _fingerprint_ unstructured data within a file by algorithms that map the content to checksums. The DLP engine uses the checksums to detect outbound documents containing the same pattern. If a match is found, the configured action is taken. 
+### Exact Data Match (EDM)
+Most DLP solutions can _fingerprint_ structured and unstructured data with an algorithms that map the content to checksums. The DLP engine uses the checksums to detect outbound documents containing the same pattern. If a match is found, the configured action is taken. 
 
 Of course, the fingerprinting module will not evaluate password protected files, picture, and image-only PDF documents that contain just the scanned/photographed images of pages, without an underlying text layer.
 files that contain only images.

@@ -11,17 +11,17 @@ The datasets are identified with the country ISO code and I used [EN] for generi
 | Country   | Code |
 | :-- |:-- | 
 | Canada | CA |
-| The Kingdom of the Netherlands | NL |
-| The Kingdom of Norway| NO |
-| The Kingdom of Sweden| SE |
-| The Swiss Confederation | CH |
-| United States of America | US |
+| Federal Republic of Germany | DE |
+| French Republic | FR |
+| Hellenic Republic | GR |
+| Kingdom of Belgium | BE |
+| Kingdom of Norway| NO |
+| Kingdom of Sweden| SE |
+| Kingdom of the Netherlands | NL |
 | Portugal | PT |
-| The Federal Republic of Germany | DE |
-| The French Republic | FR |
-| The Hellenic Republic | GR |
-| The Republic of Finland | FI |
-| The Kingdom of Belgium | BE |
+| Republic of Finland | FI |
+| Swiss Confederation | CH |
+| United States of America | US |
 
 ### Known Data Generator
  

@@ -10,7 +10,7 @@ Fork this repository, and improve _your_ library. Even better, send me an update
 
 I wasn't happy with the provided bundle of fake files to test my DLP policies. They were either too simple or [not localized for my use case](dataSets/README.md#Localization).
 
-Friend don’t let friends test the effectiveness of DLP solution with production data. You need _realistic test data_ in several formats such as CSV, JSON, SQL, TXT, and Excel to make sure your DLP Policies are working correctly especially after a significant change.
+Friend don’t let friends test the effectiveness of a DLP solution with production data. You need _realistic test data_ in several formats such as CSV, JSON, SQL, TXT, and Excel to make sure your DLP Policies are working correctly especially after a significant change.
 
 ## Datasets
 
