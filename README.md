@@ -90,14 +90,12 @@ Compliance:
   
 </details>
 
-## Fake sensitive information generators
+### Fake sensitive information generators
 
-* [http://www.fakepersongenerator.com/](http://www.fakepersongenerator.com/)
-* [Mockaroo](https://www.mockaroo.com/)
+* [FakePersonGenerator.com](http://www.fakepersongenerator.com/)
 * [GenerateData.com](https://generatedata.com/)
-* [github.com: boo1ean/casual](https://github.com/boo1ean/casual)
-* [Chance - Random generator helper for JavaScript](https://github.com/chancejs/chancejs)
-* 
+* [Mockaroo](https://www.mockaroo.com/)
 
-## _dataLossPrevention_ by Benoît H. Dicaire is shared with an [unlicense](LICENSE).
-For more information, please refer to <https://unlicense.org>
+You can also search on GitHub for [library code](https://github.com/topics/data-generator) and [Command Line Interface tool](https://github.com/topics/fake-data).
+
+_dataLossPrevention_ by Benoît H. Dicaire is shared with an [unlicense](LICENSE). For more information, please refer to <https://unlicense.org>
