@@ -10,7 +10,9 @@ Fork this repository, and improve _your_ library. Even better, send me an update
 
 I wasn't happy with the provided bundle of fake files to test my DLP policies. They were either too simple or [not localized for my use case](dataSets/README.md#Localization).
 
-Friend don’t let friends test the effectiveness of a DLP solution with production data. You need _realistic test data_ in several formats such as CSV, JSON, SQL, TXT, and Excel to make sure your DLP Policies are working correctly especially after a significant change.
+Friend don’t let friends test the effectiveness of a DLP solution with production data. You need _realistic test data[^1]_ in several formats such as CSV, JSON, SQL, TXT, and Excel to make sure your DLP Policies are working correctly especially after a significant change. 
+
+[^1]: Refer to the [sensitive information type entity definitions provided by Microsoft](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide) for more information about the required structure.
 
 ## Datasets
 
@@ -74,10 +76,6 @@ The datasets are identified with the [country ISO code](dataSets/README.md#Local
 Compliance:
   * GDPR
 
-
- 
- 
-  
 </details>
 <details>
 <summary>Technology</summary>
@@ -91,6 +89,10 @@ Compliance:
   * To be defined
   
 </details>
+
+## Fake sensitive information generators
+
+* [http://www.fakepersongenerator.com/](http://www.fakepersongenerator.com/)
 
 ## _dataLossPrevention_ by Benoît H. Dicaire is shared with an [unlicense](LICENSE).
 For more information, please refer to <https://unlicense.org>
