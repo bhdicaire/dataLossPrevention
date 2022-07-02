@@ -8,7 +8,7 @@ Fork this repository, and improve _your_ library. Even better, send me an update
 
 ## What problem does it solve and why is it useful?
 
-I wasn't happy with the provided bundle of fake files to test my DLP policies. They were either too simple or [not localized for my use case](dataSets/README.md#Localization).
+I wasn't happy with the provided bundle of mock files to test my DLP policies. They were either too simple or [not localized for my use case](dataSets/README.md#Localization).
 
 Friend don’t let friends test the effectiveness of a DLP solution with production data. You need _realistic test data[^1]_ in several formats such as CSV, JSON, SQL, TXT, and Excel to make sure your DLP Policies are working correctly especially after a significant change. 
 
@@ -93,6 +93,11 @@ Compliance:
 ## Fake sensitive information generators
 
 * [http://www.fakepersongenerator.com/](http://www.fakepersongenerator.com/)
+* [Mockaroo](https://www.mockaroo.com/)
+* [GenerateData.com](https://generatedata.com/)
+* [github.com: boo1ean/casual](https://github.com/boo1ean/casual)
+* [Chance - Random generator helper for JavaScript](https://github.com/chancejs/chancejs)
+* 
 
 ## _dataLossPrevention_ by Benoît H. Dicaire is shared with an [unlicense](LICENSE).
 For more information, please refer to <https://unlicense.org>
