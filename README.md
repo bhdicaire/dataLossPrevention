@@ -12,6 +12,8 @@ I wasn't happy with the provided bundle of mock files to test my DLP policies. T
 
 Friend don’t let friends test the effectiveness of a DLP solution with production data. You need _realistic test data[^1]_ in several formats such as CSV, JSON, SQL, TXT, and Excel to make sure your DLP Policies are working correctly especially after a significant change. 
 
+_dataLossPrevention_ by Benoît H. Dicaire is shared with an [unlicense](LICENSE). For more information, please refer to <https://unlicense.org>.
+
 [^1]: Refer to the [sensitive information type entity definitions provided by Microsoft](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide) for more information about the required structure.
 
 ## Datasets
@@ -98,5 +100,3 @@ Compliance:
 * [Mock Turtle](https://mockturtle.net/)
 
 You can also search on GitHub for library code and Command Line Interface tool related to [data-generator](https://github.com/topics/data-generator), [fake-data](https://github.com/topics/fake-data), [mock-data ](https://github.com/topics/mock-data), [mock-data-generator](https://github.com/topics/mock-data-generator), and [test data](https://github.com/topics/test-data).
-
-_dataLossPrevention_ by Benoît H. Dicaire is shared with an [unlicense](LICENSE). For more information, please refer to <https://unlicense.org>
