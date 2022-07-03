@@ -4,7 +4,7 @@ This repository consolidate Data Loss/Leak Prevention (DLP) sample files (e.g., 
 
 Fork this repository, and improve _your_ library. Even better, send me an update :laughing:.
 
-> **A DLP solution is a set of enterprise processes, [tools, and techniques](techniques.md) that monitor sensitive information and prevent data exfiltration.**
+> **A DLP solution is a set of enterprise processes, [tools, and techniques](techniques/README.md) that monitor sensitive information and prevent data exfiltration.**
 
 ## What problem does it solve and why is it useful?
 
