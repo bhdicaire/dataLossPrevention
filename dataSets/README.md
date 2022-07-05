@@ -52,7 +52,7 @@ Compliance:
   * PCI
 </details>
 <details>
-<summary>Industry</summary>
+<summary>Industries</summary>
 <br>
 
 Items:
