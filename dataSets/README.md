@@ -1,10 +1,10 @@
 # Datasets
 
-All the dataSets are documented on the [main page](../README.md)
-
 You’ve been there too — setting up a data loss prevention solution is a damn long project (DLP) especially if you need to _support multiple languages_. I have used several [data generators](#KnownDataGenerators) and curated data resources to obtain American, Canadian, and European specific datasets.
 
-It’s essential to use a DLP solution that support country specific localisation (l10n) as an integral part of ongoing development. The flexibility provided by the internationalisation (i18n) ensure that DLP policies can be adapted to various languages and regions without engineering changes.
+## Localisation
+
+It’s essential to support country specific localisation (l10n) as an integral part of your policies to reduce false positive and false negative. The flexibility provided by the internationalisation (i18n) ensure that DLP policies can be adapted to various languages and regions without engineering changes.
 
 The datasets are identified with the country ISO code and I used [EN] for generic english document.
 
@@ -23,16 +23,92 @@ The datasets are identified with the country ISO code and I used [EN] for generi
 | Swiss Confederation | CH |
 | United States of America | US |
 
-### Known Data Generator
+## Datasets
+
+<details>
+<summary>Cybersecurity</summary>
+<br>
+Items:
+  * password/ shadow
+  * ldap
+  
+Compliance:
+  * To be defined
+  
+</details>
+<details>
+<summary>Finance</summary>
+<br>
+Items:
+  * Credit card number (CCN)
+  
+Compliance:
+  * PCI
+  
+</details>
+<details>
+<summary>Industry</summary>
+<br>
+Items:
+  * [Pharmaceutical product documents by Brian Reid](https://c7solutions.com/2014/04/dlp-templates)
+  * NDA
+  
+Compliance:
+  * To be defined
+
+#### Intellectual Property
+
+  * https://www.gutenberg.org/ebooks/
+  * https://openlibrary.org/explore
+  
+</details>
+<details>
+<summary>Legal</summary>
+<br>
+Items:
+  * Contract
+  * NDA
+  
+Compliance:
+  * To be defined
+  
+</details>
+<details>
+<summary>Personal</summary>
+<br>
+Items:
+  * PII
+  * PHI
  
-| Name | Cybersecurity | Finance | Legal | Personal | Technology |
-| :-- | :--: | :--:| :--: | :--:| :--: |
-|[DLP Test](https://dlptest.com/)| X | X | X | X | X |
-|[Fake Person Generator](https://www.fakepersongenerator.com/)| X | X | X | X | X |
-|[Fake Generator](https://fakegenerator.net/)| X | X | X | X | X |
-|[Get Fake Data](https://getfakedata.com/)| X | X | X | X | X |
-|[Get Bored Human)](https://boredhumans.com/faces.php)| X | X | X | X | X |
-|[Venkom](https://cloud.venkon.us/)| X | X | X | X | X |
+ 
+| File Name   | Description |
+| :-- |:-- | 
+|[lastName.US.txt](personal/lastName.US.txt)| Last names occurring 100 or more times from the [US Census Bureau (up to the year 2000)](https://www.census.gov/topics/population/genealogy/data/2000_surnames.html) Because of a 72-year restriction on access to the _full_ Census, the most recent year available is 1950, released on April 1, 2022. |
+
+https://github.com/orgs/unitedstates
+
+The datasets are identified with the [country ISO code](dataSets/README.md#Localization).
+
+Compliance:
+  * GDPR
+
+</details>
+<details>
+<summary>Information Technology (IT)</summary>
+<br>
+Items:
+  * [A list of free email provider domains](https://gist.github.com/tbrianjones/5992856) curated by [
+T. Brian Jones](@tbrianjones)
+  * ldap
+  * code
+  
+  
+Compliance:
+  * To be defined
+  
+</details>
+
+### Known Data Generator
 
 ### Data Resources
 
