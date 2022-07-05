@@ -2,7 +2,7 @@
 
 You’ve been there too — setting up a data loss prevention solution might be a damn long project (DLP), if you need to _support multiple languages_ and don’t have adequate data sources.
 
-This repository consolidate Data Loss/Leak Prevention (DLP) [sample files (e.g., datasets)](dataSets/README.md), that I have collected and used over the years. Your quality assurance library does not have to be unique, everyone strives for consistency. 
+This repository consolidate Data Loss/Leak Prevention [sample files (e.g., datasets)](dataSets/README.md), that I have collected and used over the years. Your quality assurance library does not have to be unique, everyone strives for consistency. 
 
 Fork this repository, and improve _your_ library. Even better, send me an update :laughing:.
 

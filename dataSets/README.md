@@ -1,6 +1,6 @@
 # Datasets
 
- I have used [curated data resources](source.md) and several [data generators](#KnownDataGenerators) and to obtain _good enough_ American, Canadian, and European specific datasets.
+ I have used [curated data resources](source.md) and several [data generators](../README.md/#KnownDataGenerators) and to obtain _good enough_ American, Canadian, and European specific datasets.
 
 It’s essential to support country specific localisation (l10n) as an integral part of your policies to reduce false positive and false negative. The flexibility provided by the internationalisation (i18n) to ensure that DLP policies can be adapted to various languages and regions without engineering changes.
 
@@ -28,11 +28,16 @@ The datasets are identified with the country ISO code except for generic english
 <br>
 
 Items:
-  * password/ shadow
-  * ldap
-  
+  * password files / shadow
+  * common passwords
+  * LDAP[^1]: LDF[^2]schema to store content actions to perform such as a adding, modifying, removing and renaming objects (e.g., users and groups)
+* [base-64](https://en.wikipedia.org/wiki/Base64) encoded files
+
 Compliance:
   * To be defined
+
+[^1]: Lightweight Directory Access Protocol (LDAP), [OpenLDAP](https://www.openldap.org/) is an open source implementation 
+[^2]: The LDAP Data Interchange Format (LDIF) is stored as plain-text files with an LDF extension
   
 </details>
 <details>
@@ -100,11 +105,6 @@ Items:
   * PHI
  
  
-| File Name   | Description |
-| :-- |:-- | 
-|[lastName.US.txt](personal/lastName.US.txt)| Last names occurring 100 or more times from the [US Census Bureau (up to the year 2000)](https://www.census.gov/topics/population/genealogy/data/2000_surnames.html) Because of a 72-year restriction on access to the _full_ Census, the most recent year available is 1950, released on April 1, 2022. |
-
-https://github.com/orgs/unitedstates
 
 Compliance:
   * GDPR
