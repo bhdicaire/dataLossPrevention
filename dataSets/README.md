@@ -1,6 +1,6 @@
 # Datasets
 
- I have used several [data generators](#KnownDataGenerators) and curated data resources to obtain American, Canadian, and European specific datasets.
+ I have used curated data resources and several [data generators](#KnownDataGenerators) and to obtain _good enough_ American, Canadian, and European specific datasets.
 
 It’s essential to support country specific localisation (l10n) as an integral part of your policies to reduce false positive and false negative. The flexibility provided by the internationalisation (i18n) ensure that DLP policies can be adapted to various languages and regions without engineering changes.
 
@@ -61,6 +61,22 @@ Compliance:
   
 </details>
 <details>
+<summary>Information Technology (IT)</summary>
+<br>
+Compliance:
+  * [A list of free email provider domains](https://gist.github.com/tbrianjones/5992856) curated by [T. Brian Jones](@tbrianjones)
+
+Items:
+
+  * [A list of free email provider domains](https://gist.github.com/tbrianjones/5992856) curated by [T. Brian Jones](@tbrianjones)
+  * ldap
+  * code
+  
+Compliance:
+  * To be defined
+  
+</details>
+<details>
 <summary>Legal</summary>
 <br>
 Items:
@@ -75,6 +91,7 @@ Compliance:
 <summary>Personal</summary>
 <br>
 Items:
+
   * PII
   * PHI
  
@@ -85,26 +102,11 @@ Items:
 
 https://github.com/orgs/unitedstates
 
-The datasets are identified with the [country ISO code](dataSets/README.md#Localization).
-
 Compliance:
   * GDPR
 
 </details>
-<details>
-<summary>Information Technology (IT)</summary>
-<br>
-Items:
-  * [A list of free email provider domains](https://gist.github.com/tbrianjones/5992856) curated by [
-T. Brian Jones](@tbrianjones)
-  * ldap
-  * code
-  
-  
-Compliance:
-  * To be defined
-  
-</details>
+
 
 
 ### Data Resources

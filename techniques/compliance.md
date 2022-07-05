@@ -13,23 +13,24 @@
 |[Mock Turtle](https://mockturtle.net/)| X | X | X | X | X |
 |[Venkom](https://cloud.venkon.us/)| X | X | X | X | X |
 
+## Financial Data
 
-| Category | Template | SIT |
-| --- | --- | --- |
-| Financial | Australia Financial Data | \- [SWIFT code](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#swift-code)  
+| Country | Sensitive Data Type |
+| --- | --- | 
+| Australia | \- [SWIFT code](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#swift-code)  
 \- [Australia tax file number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#australia-tax-file-number)  
 \- [Australia bank account number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#australia-bank-account-number)  
 \- [Credit card number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#credit-card-number) |
-| Financial | Canada Financial data | \- [Credit card number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#credit-card-number)  
+| Canada | \- [Credit card number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#credit-card-number)  
 \- [Canada bank account number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#canada-bank-account-number) |
-| Financial | France Financial data | \- [Credit card number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#credit-card-number)  
+| France | \- [Credit card number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#credit-card-number)  
 \- [EU debit card number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#eu-debit-card-number) |
-| Financial | Germany Financial Data | \- [Credit card number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#credit-card-number)  
+| Germany | \- [Credit card number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#credit-card-number)  
 \- [EU debit card number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#eu-debit-card-number) |
-| Financial | Israel Financial Data | \- [Israel bank account number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#israel-bank-account-number)  
+| Israel | \- [Israel bank account number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#israel-bank-account-number)  
 \- [SWIFT code](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#swift-code)  
 \- [Credit card number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#credit-card-number) |
-| Financial | Japan Financial Data | \- [Japan bank account number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#japan-bank-account-number)  
+| Japan | \- [Japan bank account number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#japan-bank-account-number)  
 \- [Credit card number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#credit-card-number) |
 | Financial | PCI Data Security Standard (PCI DSS) | \- [Credit card number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#credit-card-number) |
 | Financial | Saudi Arabia Anti-Cyber Crime Law | \- [SWIFT code](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#swift-code)  
@@ -58,6 +59,11 @@
 \- [U.S. bank account number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#us-bank-account-number)  
 \- [U.S. Individual Taxpayer Identification Number (ITIN)](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#us-individual-taxpayer-identification-number-itin)  
 \- [U.S. social security number (SSN)](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#us-social-security-number-ssn) |
+
+## Medical and health
+
+| Country | Sensitive Data Type |
+| --- | --- | 
 | Medical and health | Australia Health Records Act (HRIP Act) Enhanced | \- [Australia tax file number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#australia-tax-file-number)  
 \- [Australia medical account number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#australia-medical-account-number)  
 \- [All Full Names](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#all-full-names)  
@@ -86,7 +92,11 @@
 \- [U.S. Physical Addresses](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#us-physical-addresses) |
 | Medical and health | U.S. Health Insurance Act (HIPAA) | \- [International classification of diseases (ICD-9-CM)](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#international-classification-of-diseases-icd-9-cm)  
 \- [International classification of diseases (ICD-10-CM)](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#international-classification-of-diseases-icd-10-cm) |
-| Privacy | Australia Privacy Act Enhanced | \- [Australia driver's license number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#australia-drivers-license-number)  
+
+## Privacy
+| Country | Sensitive Data Type |
+| --- | --- | 
+|  | Australia Privacy Act Enhanced | \- [Australia driver's license number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#australia-drivers-license-number)  
 \- [Australia passport number](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#australia-passport-number)  
 \- [All Full Names](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#all-full-names)  
 \- [All Medical Terms And Conditions](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-entity-definitions?view=o365-worldwide#all-medical-terms-and-conditions)  
