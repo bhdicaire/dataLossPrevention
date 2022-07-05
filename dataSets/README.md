@@ -30,14 +30,16 @@ The datasets are identified with the country ISO code except for generic english
 Items:
   * password files / shadow
   * common passwords
-  * LDAP[^1]: LDF[^2]schema to store content actions to perform such as a adding, modifying, removing and renaming objects (e.g., users and groups)
+  * LDAP[^1]: LDF[^2]schema to store content & actions to perform such as a adding, modifying, removing and renaming objects (e.g., users and groups)
 * [base-64](https://en.wikipedia.org/wiki/Base64) encoded files
+* ICS/SCADA[^3]
 
 Compliance:
   * To be defined
 
 [^1]: Lightweight Directory Access Protocol (LDAP), [OpenLDAP](https://www.openldap.org/) is an open source implementation 
 [^2]: The LDAP Data Interchange Format (LDIF) is stored as plain-text files with an LDF extension
+[^3]: Industrial Control System (Ics) / Supervisory Control and Data Acquisition (SCADA)
   
 </details>
 <details>
