@@ -1,8 +1,8 @@
 # Datasets
 
- I have used curated data resources and several [data generators](#KnownDataGenerators) and to obtain _good enough_ American, Canadian, and European specific datasets.
+ I have used [curated data resources](source.md) and several [data generators](#KnownDataGenerators) and to obtain _good enough_ American, Canadian, and European specific datasets.
 
-It’s essential to support country specific localisation (l10n) as an integral part of your policies to reduce false positive and false negative. The flexibility provided by the internationalisation (i18n) ensure that DLP policies can be adapted to various languages and regions without engineering changes.
+It’s essential to support country specific localisation (l10n) as an integral part of your policies to reduce false positive and false negative. The flexibility provided by the internationalisation (i18n) to ensure that DLP policies can be adapted to various languages and regions without engineering changes.
 
 The datasets are identified with the country ISO code except for generic english document.
 
@@ -24,8 +24,9 @@ The datasets are identified with the country ISO code except for generic english
 ## Datasets
 
 <details>
-<summary>Cybersecurity</summary>
+<summary>Secrets</summary>
 <br>
+
 Items:
   * password/ shadow
   * ldap
@@ -37,38 +38,39 @@ Compliance:
 <details>
 <summary>Finance</summary>
 <br>
+
 Items:
   * Credit card number (CCN)
-  
+
+
 Compliance:
   * PCI
-  
 </details>
 <details>
 <summary>Industry</summary>
 <br>
+
 Items:
   * [Pharmaceutical product documents by Brian Reid](https://c7solutions.com/2014/04/dlp-templates)
   * NDA
-  
+
+
 Compliance:
   * To be defined
 
-#### Intellectual Property
 
-  * https://www.gutenberg.org/ebooks/
-  * https://openlibrary.org/explore
   
 </details>
 <details>
 <summary>Information Technology (IT)</summary>
 <br>
-Compliance:
-  * [A list of free email provider domains](https://gist.github.com/tbrianjones/5992856) curated by [T. Brian Jones](@tbrianjones)
+
+
+
 
 Items:
 
-  * [A list of free email provider domains](https://gist.github.com/tbrianjones/5992856) curated by [T. Brian Jones](@tbrianjones)
+  * [A list of free email provider domains](https://gist.github.com/tbrianjones/5992856) curated by [T. Brian Jones](https://github.com/tbrianjones)
   * ldap
   * code
   
@@ -79,6 +81,7 @@ Compliance:
 <details>
 <summary>Legal</summary>
 <br>
+
 Items:
   * Contract
   * NDA
@@ -90,6 +93,7 @@ Compliance:
 <details>
 <summary>Personal</summary>
 <br>
+
 Items:
 
   * PII
@@ -106,14 +110,3 @@ Compliance:
   * GDPR
 
 </details>
-
-
-
-### Data Resources
-
-| Name | Description| 
-| :-- | :-- |
-|[Data.World](https://data.world)|  |
-|[Data Lumos](https://www.datalumos.org)| Valuable government data resources powered by [Open ICPSR](https://www.openicpsr.org/) |
-|[Names.IO GIT repository](https://github.com/Debdut/names.io)| A Global Exhaustive First and Last Name Database |
-|[Statistics Canada](https://www.statcan.gc.ca/)| Statistics Canada provides information on Canada's economy, society and environment |

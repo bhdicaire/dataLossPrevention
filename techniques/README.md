@@ -50,6 +50,11 @@ Most DLP solutions can _fingerprint_ structured and unstructured data with an al
 Of course, the fingerprinting module will not evaluate password protected files, picture, and image-only PDF documents that contain just the scanned/photographed images of pages, without an underlying text layer.
 files that contain only images.
 
+#### Intellectual Property
+
+  * https://www.gutenberg.org/ebooks/
+  * https://openlibrary.org/explore
+
 #### Forms and templates
 It’s a good practice to fingerprint template and then create a DLP policy that detects and blocks this kind of document with sensitive content filled in. 
 

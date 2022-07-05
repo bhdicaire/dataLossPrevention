@@ -10,7 +10,7 @@ Fork this repository, and improve _your_ library. Even better, send me an update
 
 ## What problem does it solve and why is it useful?
 
-I wasn't happy with the provided bundle of mock files to test my DLP policies. They were either [too simple or not localized for my use case](dataSets/README.md).
+I wasn't happy with the provided bundle of mock files to test my DLP policies and [demonstrate compliance](techniques/compliance.md). They were either [too simple or not localized for my use case](dataSets/README.md).
 
 Friend don’t let friends test the effectiveness of a DLP solution with production data. You need _realistic test data[^1]_ in several formats such as CSV, JSON, SQL, TXT, and Excel to make sure your DLP Policies are working correctly especially after a significant change. 
 
@@ -28,7 +28,7 @@ _dataLossPrevention_ by Benoît H. Dicaire is shared with an [unlicense](LICENSE
 |[Fake Generator](https://fakegenerator.net/)| X | X | X | X | X |
 |[GenerateData.com](https://generatedata.com/)[^2]| X | X | X | X | X |
 |[Get Fake Data](https://getfakedata.com/)| X | X | X | X | X |
-|[Get Bored Human)](https://boredhumans.com/faces.php)| X | X | X | X | X |
+|[Get Bored Human](https://boredhumans.com/faces.php)| X | X | X | X | X |
 |[Mockaroo](https://www.mockaroo.com/)| X | X | X | X | X |
 |[Mock Turtle](https://mockturtle.net/)| X | X | X | X | X |
 |[Venkom](https://cloud.venkon.us/)| X | X | X | X | X |
