@@ -2,7 +2,7 @@
 
 This repository consolidate Data Loss/Leak Prevention (DLP) sample files (e.g., datasets) that I have collected and used over the years. Your quality assurance library does not have to be unique, everyone strives for consistency. 
 
-Fork this repository, and improve _your_ library. Even better, send me an update :laughing:.
+Fork this repository, and improve _your_ library to ensure . Even better, send me an update :laughing:.
 
 > **A DLP solution is a set of enterprise processes, [tools, and techniques](techniques/README.md) that monitor sensitive information and prevent data exfiltration.**
 
@@ -18,79 +18,9 @@ _dataLossPrevention_ by Benoît H. Dicaire is shared with an [unlicense](LICENSE
 
 ## Datasets
 
-<details>
-<summary>Cybersecurity</summary>
-<br>
-Items:
-  * password/ shadow
-  * ldap
-  
-Compliance:
-  * To be defined
-  
-</details>
-<details>
-<summary>Finance</summary>
-<br>
-Items:
-  * Credit card number (CCN)
-  
-Compliance:
-  * PCI
-  
-</details>
-<details>
-<summary>Industry</summary>
-<br>
-Items:
-  * [Pharmaceutical product documents by Brian Reid](https://c7solutions.com/2014/04/dlp-templates)
-  * NDA
-  
-Compliance:
-  * To be defined
-  
-</details>
-<details>
-<summary>Legal</summary>
-<br>
-Items:
-  * Contract
-  * NDA
-  
-Compliance:
-  * To be defined
-  
-</details>
-<details>
-<summary>Personal</summary>
-<br>
-Items:
-  * PII
-  * PHI
- 
- 
-| File Name   | Description |
-| :-- |:-- | 
-|[lastName.US.txt](personal/lastName.US.txt)| Last names occurring 100 or more times from the [US Census Bureau (up to the year 2000)](https://www.census.gov/topics/population/genealogy/data/2000_surnames.html) Because of a 72-year restriction on access to the _full_ Census, the most recent year available is 1950, released on April 1, 2022. |
+All the dataSets are documented [here](dataSets/README.md)
 
-The datasets are identified with the [country ISO code](dataSets/README.md#Localization).
 
-Compliance:
-  * GDPR
-
-</details>
-<details>
-<summary>Technology</summary>
-<br>
-Items:
-  * ldap
-  * code
-  
-  
-Compliance:
-  * To be defined
-  
-</details>
 
 ### Fake sensitive information generators
 
@@ -98,5 +28,16 @@ Compliance:
 * [GenerateData.com](https://generatedata.com/) with [source code](https://github.com/benkeen/generatedata)
 * [Mockaroo](https://www.mockaroo.com/)
 * [Mock Turtle](https://mockturtle.net/)
+
+ 
+| Name | Cybersecurity | Finance | Legal | Personal | Technology |
+| :-- | :--: | :--:| :--: | :--:| :--: |
+|[DLP Test](https://dlptest.com/)| X | X | X | X | X |
+|[Fake Person Generator](https://www.fakepersongenerator.com/)| X | X | X | X | X |
+|[Fake Generator](https://fakegenerator.net/)| X | X | X | X | X |
+|[Get Fake Data](https://getfakedata.com/)| X | X | X | X | X |
+|[Get Bored Human)](https://boredhumans.com/faces.php)| X | X | X | X | X |
+|[Venkom](https://cloud.venkon.us/)| X | X | X | X | X |
+
 
 You can also search on GitHub for library code and Command Line Interface tool related to [data-generator](https://github.com/topics/data-generator), [fake-data](https://github.com/topics/fake-data), [mock-data ](https://github.com/topics/mock-data), [mock-data-generator](https://github.com/topics/mock-data-generator), and [test data](https://github.com/topics/test-data).
