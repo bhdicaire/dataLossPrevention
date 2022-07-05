@@ -1,12 +1,10 @@
 # Datasets
 
-You’ve been there too — setting up a data loss prevention solution is a damn long project (DLP) especially if you need to _support multiple languages_. I have used several [data generators](#KnownDataGenerators) and curated data resources to obtain American, Canadian, and European specific datasets.
-
-## Localisation
+ I have used several [data generators](#KnownDataGenerators) and curated data resources to obtain American, Canadian, and European specific datasets.
 
 It’s essential to support country specific localisation (l10n) as an integral part of your policies to reduce false positive and false negative. The flexibility provided by the internationalisation (i18n) ensure that DLP policies can be adapted to various languages and regions without engineering changes.
 
-The datasets are identified with the country ISO code and I used [EN] for generic english document.
+The datasets are identified with the country ISO code except for generic english document.
 
 | Country   | Code |
 | :-- |:-- | 
@@ -108,7 +106,6 @@ Compliance:
   
 </details>
 
-### Known Data Generator
 
 ### Data Resources
 

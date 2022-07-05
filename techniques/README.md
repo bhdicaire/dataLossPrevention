@@ -1,7 +1,19 @@
 # DLP Tools and techniques
 
 > FYI: Data Loss Prevention is also known as Data Leakage Prevention (DLP) 
+
+## Tools
+
+Testing Resource 
+
+| Name   | HTTP Post | HTTPS Post | FTP |
+| :-- |:--: | :--:| :--: |
+|[DLP Test](https://dlptest.com/)| X | X | X |
+|[NetMask.US](http://www.netmask.us/dlptest)| X | X | X |
+|[Test the Proxy](http://www.testtheproxy.com/)| X | X | X |
+
 ## Techniques
+
 
 
 ### File size and type
@@ -24,7 +36,6 @@ https://www.iso.org/standard/70484.html
 https://en.wikipedia.org/wiki/Luhn_algorithm
 German computer scientist Hans Peter Luhn developed the Luhn algorithm in 1954. It calculates simple checksum formula used to validate identification numbers The algorithm was designed to protect against accidental errors, such as digit mistyping. It will detect any single-digit error, as well as almost all transpositions of adjacent digits. However, it will not detect transposition of the two-digit sequence 09 to 90 (or vice versa).
 
-
 Names from the US Census Bureau (up to the year 1990)
 
 IBAN (International Bank Account Number)
@@ -43,16 +54,3 @@ files that contain only images.
 It’s a good practice to fingerprint template and then create a DLP policy that detects and blocks this kind of document with sensitive content filled in. 
 
 I usually start with government, and human resources forms. You should update forms created specifically for your organization with a non printable ID to ease the identification and reduce false positive.
-
-
-## Tools
-
-### Testing Resource 
-
-| Name   | HTTP Post | HTTPS Post | FTP |
-| :-- |:--: | :--:| :--: |
-|[DLP Test](https://dlptest.com/)| X | X | X |
-|[NetMask.US](http://www.netmask.us/dlptest)| X | X | X |
-|| X | X | X |
-http://www.testtheproxy.com/
-
