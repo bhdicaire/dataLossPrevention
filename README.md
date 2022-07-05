@@ -1,6 +1,6 @@
 ![dataLossPrevention logo](https://github.com/bhdicaire/dataLossPrevention/raw/master/logo.png)
 
-You’ve been there too — setting up a data loss prevention solution might be a damn long project (DLP), if you need to _support multiple languages_ and don’t have adequate data sources.
+You’ve been there too — setting up a data loss prevention solution might be a damn long project (DLP), if you need to _support multiple languages_ and don’t have [adequate data sources](dataSets/source.md).
 
 This repository consolidate Data Loss/Leak Prevention [sample files (e.g., datasets)](dataSets/README.md), that I have collected and used over the years. Your quality assurance library does not have to be unique, everyone strives for consistency. 
 

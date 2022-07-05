@@ -1,4 +1,4 @@
-# curated data resources
+# Curated data resources
 
 ## Financial data
 
@@ -26,10 +26,10 @@ ICS/SCADA
 ### Intellectual properties[^1] sources
 | Name | Description| 
 | :-- | :-- |
-|[library of over 60,000 free eBooks](https://www.gutenberg.org/ebooks/)| [Project Gutenberg](https://www.gutenberg.org/ebooks/) |
+|[A library of over 60,000 free eBooks](https://www.gutenberg.org/ebooks/)| [Project Gutenberg](https://www.gutenberg.org/ebooks/) |
 |[Open Library](https://openlibrary.org/explore)| [Curated by the Internet Archive](https://archive.org/)|
 
-[^1]:literature with expired copyright to experiment on [exact data matching also known as fingerprinting](../techniques/README.md#"Exact Data Match")
+[^1]:Literature with expired copyright to experiment on [exact data matching also known as fingerprinting](../techniques/README.md)
 
 ## Personal
 

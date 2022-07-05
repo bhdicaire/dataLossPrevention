@@ -28,13 +28,12 @@ It’s a good practice to use the code library against all files to ensure that 
 
 A predefined expression usually stored as a single reference item or in a dictionary to identify sensitive information with minimal risk of transcription errors. Also use match ...
 
+Most credit cards and many government identification numbers use  algorithms as a simple method of distinguishing valid numbers from mistyped or otherwise incorrect numbers:
+ * [Luhn_algorithm[^1]](https://en.wikipedia.org/wiki/Luhn_algorithm) developed in 1954 to validate identification numbers based on a simple checksum
+ * ISO/IEC 7812-1:2017 specifies a numbering system for the identification of the card issuers, the format of the issuer identification number (IIN) and the primary account number (PAN).
+* ISO 7084 https://www.iso.org/standard/70484.html
 
-
-Most credit cards and many government identification numbers use the algorithm as a simple method of distinguishing valid numbers from mistyped or otherwise incorrect numbers. ISO/IEC 7812-1:2017 specifies a numbering system for the identification of the card issuers, the format of the issuer identification number (IIN) and the primary account number (PAN).
-https://www.iso.org/standard/70484.html
-
-https://en.wikipedia.org/wiki/Luhn_algorithm
-German computer scientist Hans Peter Luhn developed the Luhn algorithm in 1954. It calculates simple checksum formula used to validate identification numbers The algorithm was designed to protect against accidental errors, such as digit mistyping. It will detect any single-digit error, as well as almost all transpositions of adjacent digits. However, it will not detect transposition of the two-digit sequence 09 to 90 (or vice versa).
+[^1]:The algorithm was designed to protect against accidental errors, such as digit mistyping. It will detect any single-digit error, as well as almost all transpositions of adjacent digits. 
 
 Names from the US Census Bureau (up to the year 1990)
 
