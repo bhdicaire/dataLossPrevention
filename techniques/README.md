@@ -2,6 +2,8 @@
 
 > FYI: Data Loss Prevention is also known as Data Leakage Prevention (DLP) 
 
+Tools and techniques are supported by [governance](governance/README.md) and influenced by [good practices](references/README.md).
+
 ## Tools
 
 Testing Resource 
@@ -29,7 +31,7 @@ It’s a good practice to use the code library against all files to ensure that 
 A predefined expression usually stored as a single reference item or in a dictionary to identify sensitive information with minimal risk of transcription errors. Also use match ...
 
 Most credit cards and many government identification numbers use  algorithms as a simple method of distinguishing valid numbers from mistyped or otherwise incorrect numbers:
- * [Luhn_algorithm[^1]](https://en.wikipedia.org/wiki/Luhn_algorithm) developed in 1954 to validate identification numbers based on a simple checksum
+ * [Luhn_algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)[^1] developed in 1954 to validate identification numbers based on a simple checksum
  * ISO/IEC 7812-1:2017 specifies a numbering system for the identification of the card issuers, the format of the issuer identification number (IIN) and the primary account number (PAN).
 * ISO 7084 https://www.iso.org/standard/70484.html
 
