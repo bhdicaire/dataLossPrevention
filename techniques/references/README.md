@@ -1,6 +1,6 @@
 # References
 
-## Research Gate Paper
+## Research Gate Papers (public[^1])
 | Title | Version| Author(s)|
 | :-- | :-- |:-- |
 |[Data Exfiltration Techniques and Data Loss Prevention System](https://www.researchgate.net/publication/339266962_Data_Exfiltration_Techniques_and_Data_Loss_Prevention_System)|December 2019| Hamzeh Kilani, Mohammed Nasereddin, Ali Hadi, and Sara Tedmori|
@@ -9,3 +9,5 @@
 
 
 https://www.researchgate.net/search?q=Data%20Loss%20Prevention
+
+[^1]:Documents available without an account
