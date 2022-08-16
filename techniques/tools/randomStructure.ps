@@ -1,0 +1,219 @@
+#########################################################################
+##########    Creating directories structure and populate it with random files    ##########
+#########################################################################
+
+## source: https://social.technet.microsoft.com/wiki/contents/articles/37233.random-folders-structure-with-random-files-using-powershell.aspx
+
+########## Definign variables ##########
+ 
+$location = "c:\powershellscripts1"
+if (!(test-path ($location)))
+{
+    New-Item -ItemType Directory $location
+}
+Set-Location $location
+cls
+Read-Host "The structure will be created in $location`nPlease press any key to continue"
+# How many sub-directory in each directory
+$nr_folders = 5
+# Directory's name pattern
+$nume="\folder_"
+# Where to create the structure
+$main_folder = (Get-Location).path+$nume+"root"
+# How many wors, random, in each file
+$Words_max_no = 500
+$Words_min_no = 15
+# Defining the words dictionary, which will be used creating txt and docx files
+$words_array = $null
+$words_array = @()
+$words = "time,person,year,way,day,thing,man,world,life,hand,part,child,eye,woman,place,work,week,case,point,government,company,number,group,problem,fact,be,have,do,say,get,make,go,know,take,see,come,think,look,want,give,use,find,tell,ask,work,seem,feel,try,leave,call,good,new,first,last,long,great,little,own,other,old,right,big,high,different,small,large,next,early,young,important,few,public,bad,same,able,up,so,out,just,now,how,then,more,also,here,well,only,very,even,back,there,down,still,in,as,too,when,never,really,most,of,in,to,for,with,on,at,from,by,about,as,into,like,through,after,over,between,out,against,during,without,before,under,around,among,it,I,you,he,they,we,she,who,them,me,him,one,her,us,something,nothing,anything,himself,everything,someone,themselves,everyone,itself,anyone,myself,and,that,but,or,as,if,when,than,because,while,where,after,so,though,since,until,whether,before,although,nor,like,once,unless,now,except"
+foreach ($item in $words.Split(","))
+{
+    $words_array += $item   
+}
+# File types will be created
+$types = "txt,docx,xlsx"
+# How many file will be created in each directory
+$files_number_max = 4
+$files_number_min = 1
+# Get the pictures which will be included in docx files
+$pics = @{}
+$pics = Get-ChildItem ((new-object -com Shell.Application).BrowseForFolder(0, "Select the source folder", 0, "")).Self.Path -Filter *.jpg
+ 
+######################################
+ 
+function createfile($Folder,$pics,$words_array,$extension,$Words_max_no,$Words_min_no)
+{
+    $new_line = 0
+    $line = ""
+    $delimiter = " "
+    # Total number of word in file
+    $words_number = Get-Random -Maximum $Words_max_no -Minimum $Words_min_no
+    # At which chars, introduce a special char
+    $nr = [math]::Round((get-random -maximum 50 -minimum 24)/4)
+    # Words per row
+    $wordsinline = 3*(get-random -Maximum 10 -Minimum 3)
+    $lines=0
+    if($extension -match 'docx')
+    {
+        $word=new-object -ComObject "Word.Application"
+        $doc=$word.documents.Add()
+        #$word.Visible=$True
+        $selection=$word.Selection
+    }
+    $Name = ((65..90)  | Get-Random | % {[char]$_})+((65..90)  | Get-Random | % {[char]$_})+((65..90)  | Get-Random | % {[char]$_})+((65..90) | Get-Random | % {[char]$_})+((65..90)  | Get-Random | % {[char]$_})+((65..90) | Get-Random | % {[char]$_})+"_$($words_number)_$dat.$extension"
+    $FILENAME = $FOLDER+'\'+$name
+    for ($i = 1; $i -lt $words_number; $i++)
+    {
+        $new_line = $new_line + 1
+        if ( $new_line -eq $wordsinline)
+        {
+            ##### check if introduce new line in txt file
+            $lines = $lines + 1
+            if($extension -match 'docx')
+            {
+                if ($lines -eq (Get-Random -Maximum 20 -Minimum 5))
+                {
+                    # Insert image
+                    $lines = 0
+                    $selectimage = $selection.InlineShapes.AddPicture($pics[(Get-Random -Maximum ($pics.Length) -Minimum 0)].FullName)
+                }
+            }
+            $line += " " + $words_array[(Get-Random -Maximum $words_array.Length)]
+            $line = $line.Trim(" ").substring(0,1).toupper() + $line.Trim(" ").substring(1) + "."
+            if($extension -match 'txt')
+            {
+                $line | Out-File $FILENAME -Append
+            }
+            if($extension -match 'docx')
+            {
+                $selection.TypeText($line)
+                $selection.TypeText("`n")
+            }
+            $wordinline = 3*(get-random -Maximum 10 -Minimum 3)
+            $new_line = 0
+            $line = ""
+            $wordsinline = 3*(get-random -Maximum 10 -Minimum 3)
+        }
+        else
+        {
+            $new_word = $words_array[(Get-Random -Maximum $words_array.Length)]
+            if((($i/$nr - [math]::round($i/$nr)) -eq 0) -and ($new_line -gt 1 ))
+            {
+                $delimiter = (Get-Random -InputObject "!", "?", ".", "-",";","_")+" "
+                $new_word = $new_word.Trim(" ").substring(0,1).toupper()+$new_word.Trim(" ").substring(1)
+            }
+            else
+            {
+                $delimiter = " "
+            }
+            $line += $delimiter + $new_word
+        }
+        }
+        if($extension -match 'docx')
+        {
+            $doc.SaveAs([ref]$FILENAME)
+            $doc.Close()
+            $word.quit()
+        }
+        if($extension -match 'xlsx')
+        {
+            excel_file $FILENAME
+        }
+        "...the document $filename was created. Enjoy! "
+}
+ 
+function excel_file ($FILENAME)
+{
+    # Defining chart type numbers
+    $charttype= @(3,4,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,81,82,83)
+    $excel = New-Object -ComObject excel.application
+    #$excel.Visible = $True
+    $excel.DisplayAlerts = $False
+    $workbook = $excel.Workbooks.Add()
+    $serverInfoSheet = $workbook.Worksheets.Item(1)
+    $serverInfoSheet.Activate() | Out-Null
+    $serverInfoSheet.Cells.Item(1,1)= 'Excel File Test'
+    $columns = Get-Random -Minimum 3 -Maximum 7
+    $rows = Get-Random -Minimum 20 -Maximum 40
+    for ($col = 1; $col -le $columns; $col++)
+    {
+        $serverInfoSheet.Cells.Item(2,2 + $col)='Budget ' + $col.ToString()
+        $serverInfoSheet.Cells.Item(2,2 + $col).Font.Bold = $true
+    }
+    for ($row = 1; $row -le $rows; $row++)
+    {
+        $serverInfoSheet.Cells.Item(2 + $row,2)=2000 + $row.ToString()
+        $serverInfoSheet.Cells.Item(2 + $row,2).font.bold = $True
+    }
+    for ($col = 1; $col -le $columns; $col++)
+    {
+        for ($row = 1; $row -le $rows; $row++)
+        {
+            $serverInfoSheet.Cells.Item($row+2,$col+2) = Get-Random -Minimum 100 -Maximum 2593
+        }
+    }
+    $temp = $excel.Charts.Add()
+    $temp.Delete()
+    $chart = $serverInfoSheet.Shapes.AddChart().Chart
+    $serverInfoSheet.Activate()
+    $chart.ChartType = $charttype[(get-random -maximum $charttype.Count)]
+    $min = 'b2'
+    $max = [char](66+$columns)+($rows+2).ToString()
+    $chartdata = $serverInfoSheet.Range($min,$max)
+    $chart.SetSourceData($chartdata)
+    $serverInfoSheet.SaveAs($FILENAME)
+    $excel.displayAlerts=$False
+    $excel.Quit()
+}
+ 
+function main($folder,$words_array,$types,$files_number_max,$files_number_min,$pics,$Words_max_no,$Words_min_no ){
+    $folder
+    foreach ($extension in $types.Split(","))
+    {
+       $extension
+        #calculating a random number for files number with specific error
+        [int]$files_nr = Get-Random -maximum $files_number_max -Minimum $files_number_min
+        Write-Host "I will create in this folder $files_nr $extension files"
+        for ($k = 1; $k -le $files_nr; $k++)
+        {
+            . createfile $folder $pics $words_array $extension $Words_max_no $Words_min_no
+            "... working hard ..."
+        }
+    }
+}
+ 
+cls
+ 
+# Creates the directories structure
+for ($i1 = 1; $i1 -le $nr_folders; $i1++)
+{
+    $nume_final= $main_folder + $nume+$i1.ToString()
+    New-Item -ItemType Directory $nume_final -ErrorAction SilentlyContinue
+    $nr2 = Get-Random -Maximum $nr_folders -Minimum 0
+    $folder = $nume_final
+    main $folder $words_array $types $files_number_max $files_number_min $pics $Words_max_no $Words_min_no | Out-Null
+    for ($i2 = 1; $i2 -le $nr2; $i2++)
+    {
+        $nume_final2= $nume_final+$nume+$i2.ToString()+$i1.ToString()
+        New-Item -ItemType Directory $nume_final2 -ErrorAction SilentlyContinue
+        $nr3 = Get-Random -Maximum $nr_folders -Minimum 0
+        $folder = $nume_final2
+        main $folder $words_array $types $files_number_max $files_number_interval_min $pics $Words_max_no $Words_min_no | Out-Null
+        for ($i3 = 1; $i3 -le $nr3; $i3++)
+        {
+            $nume_final3= $nume_final2+$nume+$i3.ToString()+$i2.ToString()+$i1.ToString()
+            New-Item -ItemType Directory $nume_final3 -ErrorAction SilentlyContinue
+            $nr4 = Get-Random -Maximum $nr_folders -Minimum 0
+            $folder = $nume_final3
+            main $folder $words_array $types $files_number_max $files_number_min $pics $Words_max_no $Words_min_no | Out-Null
+            for ($i4 = 1; $i4 -le $nr4; $i4++)
+            {
+                $nume_final4= $nume_final3+$nume+$i4.ToString()+$i3.ToString()+$i2.ToString()+$i1.ToString()
+                New-Item -ItemType Directory $nume_final4 -ErrorAction SilentlyContinue
+                $folder = $nume_final4
+                main $folder $words_array $types $files_number_max $files_number_min $pics $Words_max_no $Words_min_no | Out-Null
+            }
+        }
+    }
+}
