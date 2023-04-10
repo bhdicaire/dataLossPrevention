@@ -45,15 +45,7 @@ The taxonomy of Operational risk can be organised into eight main categories:
  * [Open Threat Taxonomy](https://www.auditscripts.com/free-resources/open-threat-taxonomy/)
    * [OTT v1.1](201510%20OpenThreatTaxonomy.pdf)
 * [Canadian Risk taxonomy](https://www.canada.ca/en/treasury-board-secretariat/corporate/risk-management/taxonomies.html)
-
-## Taxonomies stored in the repository
-
- * [Open Threat Taxonomy](https://www.auditscripts.com/free-resources/open-threat-taxonomy/)
-   * [OTT v1.1](201510%20OpenThreatTaxonomy.pdf)
-* [Canadian Risk taxonomy](https://www.canada.ca/en/treasury-board-secretariat/corporate/risk-management/taxonomies.html)
- * [(2013 OpenGroup Risk Taxonomy (O-RT).pdf)
-]((2013%20OpenGroup%20Risk%20Taxonomy%20(O-RT).pdf)
-)
+ * [2013 OpenGroup Risk Taxonomy (O-RT).pdf](2013%20OpenGroup%20Risk%20Taxonomy%20(O-RT).pdf)
  * [2014 SEI Operational Cyber Security Risks.pdf](2014%20SEI%20Operational%20Cyber%20Security%20Risks.pdf)
  * [2016 ENISA threatTaxonomy.xlsx](2016%20ENISA%20threatTaxonomy.xlsx)
  * [201212 eCSIRT Incident Classification and Taxonomy.pdf](201212%20eCSIRT%20Incident%20Classification%20and%20Taxonomy.pdf)
@@ -62,8 +54,6 @@ The taxonomy of Operational risk can be organised into eight main categories:
  * [20230410 CiscoUmbrella.md](20230410%20CiscoUmbrella.md)
 
 ## List of available taxonomies
-
-
 
  * CERT-XLM Security Incident Classification
  * DFRLab Dichotomies of Disinformation
