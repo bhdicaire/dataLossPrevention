@@ -4,6 +4,55 @@ A taxonomy (e.g., standardized vocabulary) allows to tag, classify and organise 
 
 The following taxonomies can be used in your documentation, unstructured data, and tools to share a common vocabulary among your DLP ecosystem to mitigate data exfiltration.
 
+## Taxonomies stored in the repository
+
+ * [Open Threat Taxonomy](https://www.auditscripts.com/free-resources/open-threat-taxonomy/)
+   * [OTT v1.1](201510%20OpenThreatTaxonomy.pdf)
+* [Canadian Risk taxonomy](https://www.canada.ca/en/treasury-board-secretariat/corporate/risk-management/taxonomies.html)
+
+### Glossaries also known as security term definitions
+
+A small set of infosec terms with standard definitions increase communication and support risk reduction among all stakeholders.
+
+There is _some_ agreement between all the definitions for infosec terms although, it lack a general groupings (e.g., categories) necessary
+
+ The Common Attack Pattern Enumeration and Classification (CAPEC) is a standard for describing cyberattack patterns (MITRE, 2017) that fits into STIX. CAPEC has 508 terms to portray all possible attack patterns. STIX and CAPEC are examples of the intricate threat detail capable with CTI standards. These capabilities aid threat analysis, but a higher-level perspective supports strategic CTI products.
+ 
+...
+https://flevy.com/browse/business-document/information-technology--ict--it-taxonomy-2776
+
+https://csiac.org/articles/evaluation-of-comprehensive-taxonomies-for-information-technology-threats/
+A taxonomy of IT threat terms can provide appropriate categories at various levels of granularity to aid threat analysis, risk assessments, and ultimately decision-making. Capturing and organizing unstructured threat information through CTI and incident response activities requires a standard set of threat terminology. Reports and metrics with a common set of terms can speed comprehension of the threats and incident response times. Business unit management and organizational leadership can more quickly understand the greatest threats to their organization after reviewing threat reports and metrics with standard terminology.
+
+Information security operations provide analysts with a rich vocabulary of cyber threat terms and a structure for appropriately characterizing attacks. CTI and incident response operations describe and analyze an attack in great detail to support threat hunting, sharing, and governance of information security operations. 
+...
+
+The United States (U.S.) government alone has many sources including:
+- [Department of Defense (DoD) – Dictionary of Military and Associated Terms](https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/dictionary.pdf),
+- [Department of Homeland Security (DHS) – Risk Lexicon,](https://www.dhs.gov/xlibrary/assets/dhs-risk-lexicon-2010.pdf)
+- [National Institute of Standards and Technology (NIST) – Glossary of Key Information Security Terms](https://nvlpubs.nist.gov/nistpubs/ir/2013/NIST.IR.7298r2.pdf),
+- [Committee on National Security Systems (CNSS) – Glossary](https://rmf.org/wp-content/uploads/2017/10/CNSSI-4009.pdf), and
+- [National Initiative for Cybersecurity Careers and Studies (NICCS) – A Glossary of Common Cybersecurity Terminology](https://niccs.us-cert.gov/about-niccs/glossary).
+
+### Operational risk
+
+The taxonomy of Operational risk can be organised into eight main categories: 
+1. fraud
+2. non-compliance with regulations
+3. legal and liability losses
+4. information security breaches
+5. physical security breachess
+6. inappropriate business practices
+7. disaster recovery & business continuity
+8. human resources
+
+Bribery, theft of assets or funds (or even stationery) constitutes internal fraud, whereas incidents
+involving forgery or identity theft for instance, are considered external fraud. Operational risk
+management is what has to be applied to mitigate these disruptions and try, as far as possible, to
+ensure business as usual but it does not adequately describe the continual cyclical process which
+includes the risk assessment, risk decision-making and implementation of risk controls that are
+necessary to keep operations on track.
+
 ## List of available taxonomies
 
  * CERT-XLM Security Incident Classification
@@ -52,7 +101,6 @@ The following taxonomies can be used in your documentation, unstructured data, a
  * The diamond model for influence operations analysis is a framework that leads analysts and researchers toward a comprehensive understanding of a malign influence campaign by addressing the socio-political, technical, and psychological aspects of the campaign. The diamond model for influence operations analysis consists of 5 components: 4 corners and a core element. The 4 corners are divided into 2 axes: influencer and audience on the socio-political axis, capabilities and infrastructure on the technical axis. Narrative makes up the core of the diamond. 
  * A subset of Information Security Marking Metadata ISM as required by Executive Order (EO) 13526. As described by DNI.gov as Data Encoding Specifications for Information Security Marking Metadata in Controlled Vocabulary Enumeration Values for ISM 
  * Domain Name Abuse - taxonomy to tag domain names used for cybercrime. 
- * A taxonomy based on the superclass and class of drugs. Based on https://www.drugbank.ca/releases/latest 
  * Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information (e.g. data exfiltration loss, a positive gain for an adversary). 
  * Incident Classification by the ecsirt.net version mkVI of 31 March 2015 enriched with IntelMQ taxonomy-type mapping. 
  * The present threat taxonomy is an initial version that has been developed on the basis of available ENISA material. This material has been used as an ENISA-internal structuring aid for information collection and threat consolidation purposes. It emerged in the time period 2012-2015. 
@@ -145,7 +193,6 @@ The following taxonomies can be used in your documentation, unstructured data, a
  * The ThreatMatch Sectors, Incident types, Malware types and Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects. 
  * An overview of some of the known attacks related to DNS as described by Torabi, S., Boukhtouta, A., Assi, C., & Debbabi, M. (2018) in Detecting Internet Abuse by Analyzing Passive DNS Traffic: A Survey of Implemented Systems. IEEE Communications Surveys & Tutorials, 1–1. doi:10.1109/comst.2018.2849614 
  * The Traffic Light Protocol (TLP) (v2.0) was created to facilitate greater sharing of potentially sensitive information and more effective collaboration. Information sharing happens from an information source, towards one or more recipients. TLP is a set of four standard labels (a fifth label is included in amber to limit the diffusion) used to indicate the sharing boundaries to be applied by the recipients. Only labels listed in this standard are considered valid by FIRST. This taxonomy includes additional labels for backward compatibility which are no more validated by FIRST SIG. 
- * Taxonomy to describe Tor network infrastructure 
  * The Indicator of Trust provides insight about data on what can be trusted and known as a good actor. Similar to a whitelist but on steroids, reusing features one would use with Indicators of Compromise, but to filter out what is known to be good. 
  * Taxonomy to describe different types of intelligence gathering discipline which can be described the origin of intelligence. 
  * The Unified Kill Chain is a refinement to the Kill Chain. 
