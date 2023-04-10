@@ -1,4 +1,4 @@
-![dataLossPrevention logo](https://github.com/bhdicaire/dataLossPrevention/raw/master/logo.png)
+![dataLossPrevention logo](https://github.com/bhdicaire/dataLossPrevention/raw/main/logo.png)
 
 You’ve been there too — setting up a data loss prevention solution might be a damn long project (DLP), if you need to _support multiple languages_ and don’t have [adequate data sources](dataSets/source.md).
 
