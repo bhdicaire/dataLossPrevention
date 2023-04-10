@@ -4,13 +4,7 @@ A taxonomy (e.g., standardized vocabulary) allows to tag, classify and organise 
 
 The following taxonomies can be used in your documentation, unstructured data, and tools to share a common vocabulary among your DLP ecosystem to mitigate data exfiltration.
 
-## Taxonomies stored in the repository
-
- * [Open Threat Taxonomy](https://www.auditscripts.com/free-resources/open-threat-taxonomy/)
-   * [OTT v1.1](201510%20OpenThreatTaxonomy.pdf)
-* [Canadian Risk taxonomy](https://www.canada.ca/en/treasury-board-secretariat/corporate/risk-management/taxonomies.html)
-
-### Glossaries also known as security term definitions
+## Glossaries also known as security term definitions
 
 A small set of infosec terms with standard definitions increase communication and support risk reduction among all stakeholders.
 
@@ -46,14 +40,30 @@ The taxonomy of Operational risk can be organised into eight main categories:
 7. disaster recovery & business continuity
 8. human resources
 
-Bribery, theft of assets or funds (or even stationery) constitutes internal fraud, whereas incidents
-involving forgery or identity theft for instance, are considered external fraud. Operational risk
-management is what has to be applied to mitigate these disruptions and try, as far as possible, to
-ensure business as usual but it does not adequately describe the continual cyclical process which
-includes the risk assessment, risk decision-making and implementation of risk controls that are
-necessary to keep operations on track.
+## Taxonomies stored in the repository
+
+ * [Open Threat Taxonomy](https://www.auditscripts.com/free-resources/open-threat-taxonomy/)
+   * [OTT v1.1](201510%20OpenThreatTaxonomy.pdf)
+* [Canadian Risk taxonomy](https://www.canada.ca/en/treasury-board-secretariat/corporate/risk-management/taxonomies.html)
+
+## Taxonomies stored in the repository
+
+ * [Open Threat Taxonomy](https://www.auditscripts.com/free-resources/open-threat-taxonomy/)
+   * [OTT v1.1](201510%20OpenThreatTaxonomy.pdf)
+* [Canadian Risk taxonomy](https://www.canada.ca/en/treasury-board-secretariat/corporate/risk-management/taxonomies.html)
+ * [(2013 OpenGroup Risk Taxonomy (O-RT).pdf)
+]((2013%20OpenGroup%20Risk%20Taxonomy%20(O-RT).pdf)
+)
+ * [2014 SEI Operational Cyber Security Risks.pdf](2014%20SEI%20Operational%20Cyber%20Security%20Risks.pdf)
+ * [2016 ENISA threatTaxonomy.xlsx](2016%20ENISA%20threatTaxonomy.xlsx)
+ * [201212 eCSIRT Incident Classification and Taxonomy.pdf](201212%20eCSIRT%20Incident%20Classification%20and%20Taxonomy.pdf)
+ * [201801 ENISA Incident Classification Taxonomy.pdf](201801%20ENISA%20Incident%20Classification%20Taxonomy.pdf)
+ * [202205 SDN Security Threat Taxonomy.pdf](202205%20SDN%20Security%20Threat%20Taxonomy.pdf)
+ * [20230410 CiscoUmbrella.md](20230410%20CiscoUmbrella.md)
 
 ## List of available taxonomies
+
+
 
  * CERT-XLM Security Incident Classification
  * DFRLab Dichotomies of Disinformation
