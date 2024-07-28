@@ -21,7 +21,7 @@ _dataLossPrevention_ by Benoît H. Dicaire is shared with an [unlicense](LICENSE
 ### Fake sensitive information generators
 
  
-| Name | Cybersecurity | Finance | Legal | Personal | Technology |
+| Name | Cybersecurity | Finance | Legal | Personal | Technology|
 | :-- | :--: | :--:| :--: | :--:| :--: |
 |[DLP Test](https://dlptest.com/)| X | X | X | X | X |
 |[Fake Person Generator](https://www.fakepersongenerator.com/)| X | X | X | X | X |
